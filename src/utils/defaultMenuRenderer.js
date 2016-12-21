@@ -42,6 +42,7 @@ function menuRenderer ({
 				ref={ref => { onOptionRef(ref, isFocused); }}
 			>
 				{optionRenderer(option, i)}
+				<div className="category-color" style={backgroundColor: option.color}></div>
 			</Option>
 		);
 	});
