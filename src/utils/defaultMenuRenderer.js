@@ -29,7 +29,7 @@ function menuRenderer ({
 
 		return (
 			<Option
-				className={optionClass+' select-item-border'}
+				className={optionClass+' select-item-border1'}
 				style={{borderColor: option.color}}
 				instancePrefix={instancePrefix}
 				isDisabled={option.disabled}
