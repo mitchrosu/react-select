@@ -29,7 +29,8 @@ function menuRenderer ({
 
 		return (
 			<Option
-				className={optionClass}
+				className={optionClass+' select-item-border'}
+				style={{borderColor: option.color}}
 				instancePrefix={instancePrefix}
 				isDisabled={option.disabled}
 				isFocused={isFocused}
